@@ -1,0 +1,66 @@
+/*Footer Styles*/
+.footer {
+    background-color:rgb(138, 0, 0);
+    color: #cbcbcb;
+    font-family: "Ubuntu Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 415px;
+    /* margin-top: -4px; */
+    margin: 0px;
+}
+
+.footer > .logo-footer img {
+    width: 180px;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-box-shadow: 1px 1px 44px 14px rgba(0,0,0,0.22);
+    -moz-box-shadow: 1px 1px 44px 14px rgba(0,0,0,0.22);
+    box-shadow: 1px 1px 44px 14px rgba(0,0,0,0.22);
+}
+   /* filter: brightness(50%);*/
+.footer > .footer-phone-hours span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+.footer > .footer-phone-hours > .hours {
+    font-size: 0.8em;
+    color: black;
+    text-transform: uppercase;
+}
+
+.footer > .links-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+.footer > .social-media-icons-wrapper {
+    margin-top: px;
+    margin-bottom: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer > .social-media-icons-wrapper a {
+    font-size: 1.5em;
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+.footer > .social-media-icons-wrapper a:hover{
+    color:Black;
+}
+
+.footer > .copyright-wrapper {
+    margin-bottom: 42px;
+    font-size: 0.7em;
+    color: #858585;
+}
+
